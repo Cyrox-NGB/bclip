@@ -87,6 +87,6 @@ class BClip:
 				time.sleep(float(iaSleepMS[i]) / 1000.0)
 	
 	def clean(self):
-		"Resets/Cleans up GPIO  and exits"
+		"Resets/Cleans up GPIO and exits"
 		GPIO.cleanup()
 		sys.exit(0)
